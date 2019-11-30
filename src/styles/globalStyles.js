@@ -9,7 +9,8 @@ const activeLink = '#F6676D'
 const link = '#8AEAFF'
 
 export const GlobalStyle = createGlobalStyle`
-  @font-face {
+  @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:500,600|Muli:400,700&display=swap');
+  /* @font-face {
     font-family: 'Muli';
     src: url('../fonts/Muli-Bold.ttf') format('truetype');
     font-weight: 700;
@@ -35,7 +36,7 @@ export const GlobalStyle = createGlobalStyle`
     src: url('../fonts/IBMPlexMono-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-  }
+  } */
 
   body {
     background-color: ${background};
