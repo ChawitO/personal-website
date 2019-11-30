@@ -4,6 +4,8 @@ import styled from 'styled-components'
 const HomeWrapper = styled.section`
   display: grid;
   grid-template-columns: repeat(2, 50%);
+  min-height: 100vh;
+  padding-top: 120px;
 
   > div {
     grid-column-start: 2;

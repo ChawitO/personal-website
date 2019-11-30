@@ -10,6 +10,10 @@ const link = '#8AEAFF'
 export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:500,600|Muli:400,700&display=swap');
 
+  * {
+    box-sizing: border-box;
+  }
+
   body {
     margin: 0 80px;
     background-color: ${background};
