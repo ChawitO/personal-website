@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Socialbar from './components/Socialbar';
 import Home from './components/Home';
 import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Home />
         <About />
       </main>
+      <Footer />
     </>
   )
 }
