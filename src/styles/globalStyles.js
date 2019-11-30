@@ -10,33 +10,6 @@ const link = '#8AEAFF'
 
 export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:500,600|Muli:400,700&display=swap');
-  /* @font-face {
-    font-family: 'Muli';
-    src: url('../fonts/Muli-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Muli';
-    src: url('../fonts/Muli-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'IBM Plex Mono';
-    src: url('../fonts/IBMPlexMono-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'IBM Plex Mono';
-    src: url('../fonts/IBMPlexMono-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-  } */
 
   body {
     background-color: ${background};
