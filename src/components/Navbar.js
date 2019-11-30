@@ -46,7 +46,7 @@ export default class Navbar extends Component {
       <Nav>
         <FullLogo src={logo} alt='cw logo'/>
         <NavLinkWrapper>
-          <a href='#'>About</a>
+          <a href='#about'>About</a>
           <a href='#'>Work</a>
           <a href='#'>Contact</a>
         </NavLinkWrapper>

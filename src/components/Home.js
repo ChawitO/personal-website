@@ -12,7 +12,7 @@ const HomeWrapper = styled.section`
   }
 
   p {
-      margin: 80px 0;
+    margin: 80px 0;
   }
 `
 
@@ -27,7 +27,9 @@ export default class Home extends Component {
             and determined web developer
           </h1>
           <p>I have a strong belief in a well-organised and systematic coding. I’m always willing to learn more and develop my skills as well as building good websites.</p>
-          <button>Read More</button>
+          <a href='#about'>
+            <button>Read More</button>
+          </a>
         </div>
       </HomeWrapper>
     )

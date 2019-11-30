@@ -4,6 +4,7 @@ import { GlobalStyle } from './styles/globalStyles';
 import Navbar from './components/Navbar';
 import Socialbar from './components/Socialbar';
 import Home from './components/Home';
+import About from './components/About';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Socialbar />
         <Home />
+        <About />
       </main>
     </>
   )
