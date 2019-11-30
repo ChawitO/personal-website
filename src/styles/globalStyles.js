@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components'
-// import MyFont from '../fonts/Muli-Bold.ttf'
 
 const background = '#17161C'
 const text1 = '#5588F5'
@@ -12,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:500,600|Muli:400,700&display=swap');
 
   body {
+    margin: 0 80px;
     background-color: ${background};
   }
 
@@ -53,18 +53,32 @@ export const GlobalStyle = createGlobalStyle`
     letter-spacing: 0.02em;
   }
 
-  a {
+  button {
     font-family: 'IBM Plex Mono';
     font-size: 20px;
     font-weight: 500;
     color: ${link};
     border: 3px solid ${link};
     padding: 8.5px 20px;
+    background-color: inherit;
     transition: all 0.2s;
 
     &:hover {
       background-color: ${link};
       color: ${background};
+    }
+  }
+
+  a {
+    font-family: 'IBM Plex Mono';
+    font-size: 22px;
+    font-weight: 500;
+    color: ${link};
+    text-decoration: none;
+    transition: all 0.2s;
+
+    &:hover {
+      color: ${activeLink}
     }
   }
 `

@@ -1,17 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 
 import { GlobalStyle } from './styles/globalStyles';
 import Home from './components/Home';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      {/* <img src={logo}/> */}
-      <Home />
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Home />
+      </main>
     </>
   )
 }
 
-export default App;
+export default App

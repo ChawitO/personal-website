@@ -1,24 +1,33 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { thisExpression } from '@babel/types'
 
-const H1 = styled.h1`
-  color: red;
-  font-size: 60px;
+const HomeWrapper = styled.section`
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+
+  > div {
+    grid-column-start: 2;
+  }
+
+  p {
+      margin: 80px 0;
+  }
 `
 
 export default class Home extends Component {
   render() {
     return (
-      <>
-        <h1>This is H1</h1>
-        <h1>{'<This is H1>'}</h1>
-        <h2>{'<This is H2>'}</h2>
-        <h3>This is H3</h3>
-        <h4>This is H4</h4>
-        <p>This is paragraph text.</p>
-        <a>Button</a>
-      </>
+      <HomeWrapper>
+        <div>
+          <h1>
+            Hello, I’m Chawit.<br/>
+            A very energetic, colourful
+            and determined web developer
+          </h1>
+          <p>I have a strong belief in a well-organised and systematic coding. I’m always willing to learn more and develop my skills as well as building good websites.</p>
+          <button>Read More</button>
+        </div>
+      </HomeWrapper>
     )
   }
 }
