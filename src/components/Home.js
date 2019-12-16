@@ -19,7 +19,7 @@ const HomeWrapper = styled.section`
 export default class Home extends Component {
   render() {
     return (
-      <HomeWrapper>
+      <HomeWrapper id='home'>
         <div>
           <h1>
             Hello, I’m Chawit.<br/>

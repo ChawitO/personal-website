@@ -24,9 +24,12 @@ const Nav = styled.nav`
   }
 `
 
-const FullLogo = styled.img`
-  height: 50px;
+const LogoWrapperLink = styled.a`
   z-index: 2;
+
+  img {
+    height: 50px;
+  }
 `
 
 const NavLinkWrapper = styled.div`
@@ -44,7 +47,9 @@ export default class Navbar extends Component {
     return (
       <>
       <Nav>
-        <FullLogo src={logo} alt='cw logo'/>
+        <LogoWrapperLink href='#home'>
+          <img src={logo} alt='cw logo'/>
+        </LogoWrapperLink>
         <NavLinkWrapper>
           <a href='#about'>About</a>
           <a href='#work'>Work</a>
